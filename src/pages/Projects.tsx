@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaEdit, FaTrash, FaEye } from "react-icons/fa";
-
+import ProjectInformation from "../components/molecules/ProjectInformation";
 interface Project {
   id: number;
   name: string;
@@ -53,6 +53,8 @@ const Projects = () => {
   return (
     <div className="container mx-auto p-6 text-white">
       <h2 className="text-3xl font-bold text-white mb-6">Halaman Projects</h2>
+
+      <ProjectInformation/>
 
       <div className="flex justify-between items-center mb-4">
         <input

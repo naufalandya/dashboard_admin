@@ -27,13 +27,13 @@ const Dashboard = () => {
       title: 'Aktivitas Terbaru',
       description: 'Lihat aktivitas terbaru terkait proyek Anda.',
       icon: <FaHistory className="text-4xl text-orange-500" />,
-      route: '/aktivitas',
+      route: '/dashboard/aktivitas',
     },
     {
       title: 'Tarik Data',
       description: 'Mengatur script dan kredensial untuk menarik data pembangkit',
       icon: <FaDownload className="text-4xl text-red-500" />,
-      route: '/data-fetcher',
+      route: '/dashboard/automation',
     },
   ];
 

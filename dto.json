@@ -1,0 +1,377 @@
+{
+    "window" : {
+        "info" :{
+            "foto_proyek" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "struktur_pemegang_saham" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "daya_output" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "location" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "project_details" :{
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "produksi_listrik_kumulatif_harian" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "produksi_listrik_kumulatif_bulanan" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        },
+        "inisiasi" : {
+            "detail" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        },
+        "pengembangan" : {
+            "struktur_pemegang_saham" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "project_issues" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "project_metrics" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "foto_proyek_di_pengembangan" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "project_milestone" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true,
+                "timeline" : {
+                    "read" : true,
+                    "write" : true,
+                    "update" : true,
+                    "delete" : true,
+                    "sub_timeline" : {
+                        "read" : true,
+                        "write" : true,
+                        "update" : true,
+                        "delete" : true
+                    }
+                }
+            }
+        }, 
+        "konstruksi" : {
+            "irr_konstruksi" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "tkdn" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "executive_summary" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "commercial_operation_date" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "milestone_perizinan" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "foto_proyek" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }, 
+            "actual_plan" :{
+                "engineering" : {
+                    "read" : true,
+                    "write" : true,
+                    "update" : true,
+                    "delete" : true
+                },
+                "procurement" : {
+                    "read" : true,
+                    "write" : true,
+                    "update" : true,
+                    "delete" : true
+                },
+                "construction" : {
+                    "read" : true,
+                    "write" : true,
+                    "update" : true,
+                    "delete" : true
+                },
+                "test_commissioning" : {
+                    "read" : true,
+                    "write" : true,
+                    "update" : true,
+                    "delete" : true
+                }
+            },
+            "financial_close" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "milestone_penyedia_lahan" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "penyediaan_jasa_operation_dan_maintenance" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "realisasi_epc_cost" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "milestone_construction" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        },
+        "operasi" : {
+            "location" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "struktur_pemegang_saham_operasi" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "operasi" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "pembangkit" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "informasi_umum" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "commerical" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        }
+    },
+    "legal" : {
+        "add_folder" : true,
+        "upload_file" : true,
+        "folders" : {
+            "read" : true,
+            "write" : true,
+            "update" : true,
+            "delete" : true
+        },
+        "document_information" : {
+            "read" : true,
+            "write" : true,
+            "update" : true,
+            "delete" : true
+        },
+        "related_document_list" : {
+            "read" : true,
+            "write" : true,
+            "update" : true,
+            "delete" : true
+        }
+    },
+    "esg" : {
+        "summary" : {
+            "read" : true,
+            "write" : true,
+            "update" : true,
+            "delete" : true
+        },
+        "leadership" : {
+            "read" : true,
+            "write" : true,
+            "update" : true,
+            "delete" : true
+        },
+        "environment" : {
+            "energy_consumption" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "energy_reduction" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "water_consumption" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "waste_generated" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "green_energy_reduction" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "trees_planted" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+
+        },
+        "social" : {
+            "community_development" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "employee_statistic_equality" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "human_captal" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "human_rights" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "health_safety" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "customer_satisfaction" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        },
+        "governance" : {
+            "governance_risk_compliance" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "money_laundering_policies" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "whistleblowing_cases" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "cyber_security" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            },
+            "esg_commitments" : {
+                "read" : true,
+                "write" : true,
+                "update" : true,
+                "delete" : true
+            }
+        }
+    }
+}
